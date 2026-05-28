@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController" stylesheets="@../CSS/style.css"
+      styleClass="paneId3">
+   <Label layoutX="175.0" layoutY="14.0" text="Main">
+      <font>
+         <Font size="25.0"/>
+      </font>
+   </Label>
+   <Button layoutX="92.0" layoutY="70.0" mnemonicParsing="false" onMouseClicked="#goToGame"
+           prefHeight="25.0" prefWidth="217.0" text="Game"/>
+   <Button layoutX="92.0" layoutY="100.0" mnemonicParsing="false" onMouseClicked="#goToProfile"
+           prefHeight="25.0" prefWidth="217.0" text="Profile"/>
+   <Button layoutX="92.0" layoutY="130.0" mnemonicParsing="false" onMouseClicked="#ranking"
+           prefHeight="25.0" prefWidth="217.0" text="Ranking"/>
+   <Button layoutX="152.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0"
+           onMouseClicked="#logOut" text="Logout" styleClass="exitButton"/>
+</Pane>

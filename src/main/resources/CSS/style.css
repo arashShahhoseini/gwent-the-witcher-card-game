@@ -1,0 +1,82 @@
+/* General Styles */
+.root {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-background-color: #f2f2f2;
+}
+
+/* Login Title */
+.header {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Username and Password Fields */
+.text-field, .password-field {
+    -fx-prompt-text-fill: #999999;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+}
+
+.link {
+    -fx-font-size: 11px;
+    -fx-text-fill: #333333;
+}
+
+/* Forget Password and Register Labels */
+.link:hover {
+    -fx-cursor: hand;
+    -fx-text-fill: #0099ff;
+}
+
+/* Normal Button */
+.button {
+    -fx-background-color: #0099ff;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-border-radius: 3px;
+}
+
+.button:hover {
+    -fx-background-color: #0077b3;
+}
+
+/* Exit Button */
+.exitButton:hover {
+    -fx-background-color: #911818;
+}
+
+/* Apply Button */
+.applyButton {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-border-radius: 3px;
+}
+
+.applyButton:hover {
+    -fx-background-color: #43a047;
+}
+
+/* Pregame Background */
+.paneId {
+    -fx-background-image: url("../images/pregame.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Profile Background */
+.paneId2 {
+    -fx-background-image: url("../images/profile.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Main Background */
+.paneId3 {
+    -fx-background-image: url("../images/Main.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}

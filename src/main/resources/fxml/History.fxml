@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HistoryController" stylesheets="@../CSS/style.css">
+    <VBox alignment="CENTER" layoutY="26.0" prefHeight="374.0" prefWidth="600.0">
+        <HBox prefHeight="34.0" prefWidth="200.0" spacing="10.0">
+            <Label alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="Enemy"/>
+            <Label alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="Date"/>
+            <Label alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="Your score"/>
+            <Label alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="Enemy score"/>
+            <Label alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="Winner"/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy1" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date1" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore1" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore1" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner1" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy2" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date2" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore2" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore2" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner2" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy3" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date3" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore3" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore3" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner3" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy4" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date4" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore4" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore4" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner4" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy5" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date5" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore5" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore5" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner5" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy6" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date6" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore6" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore6" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner6" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy7" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date7" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore7" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore7" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner7" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy8" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date8" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore8" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore8" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner8" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy9" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date9" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore9" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore9" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner9" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+        <HBox prefHeight="35.0" prefWidth="200.0" spacing="10.0">
+            <Label fx:id="enemy10" alignment="CENTER" prefHeight="34.0" prefWidth="58.0" text="..."/>
+            <Label fx:id="date10" alignment="CENTER" prefHeight="34.0" prefWidth="53.0" text="..."/>
+            <Label fx:id="yourScore10" alignment="CENTER" prefHeight="34.0" prefWidth="65.0" text="..."/>
+            <Label fx:id="enemyScore10" alignment="CENTER" prefHeight="34.0" prefWidth="70.0" text="..."/>
+            <Label fx:id="winner10" alignment="CENTER" prefHeight="34.0" prefWidth="50.0" text="..."/>
+        </HBox>
+    </VBox>
+    <Label layoutX="272.0" layoutY="1.0" prefHeight="15.0" text="History" styleClass="header">
+        <font>
+            <Font size="18.0"/>
+        </font>
+    </Label>
+    <Button layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onMouseClicked="#back" text="Back"/>
+</Pane>

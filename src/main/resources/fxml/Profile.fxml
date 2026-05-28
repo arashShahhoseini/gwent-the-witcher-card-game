@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--merged-->
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProfileController"
+      styleClass="paneId2" stylesheets="@../CSS/style.css">
+   <Button layoutX="7.0" layoutY="7.0" mnemonicParsing="false" onMouseClicked="#exitMenu"
+           minWidth="50" styleClass="exitButton" text="back"/>
+   <VBox layoutX="500.0" layoutY="14.0" prefHeight="320.0" prefWidth="100.0">
+      <Label fx:id="userName" alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Label"/>
+      <Label fx:id="nickName" alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Label"/>
+      <Label fx:id="topScore" alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Label"/>
+      <Label fx:id="rank" alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Label"/>
+      <Label fx:id="matches" alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Label"/>
+      <Label fx:id="draws" alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Label"/>
+      <Label fx:id="wins" alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Label"/>
+      <Label fx:id="losses" alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Label"/>
+   </VBox>
+   <VBox alignment="TOP_CENTER" layoutX="400.0" layoutY="14.0" prefHeight="320.0" prefWidth="100.0">
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Username :"/>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Nickname :"/>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Top score :"/>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Rank :"/>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Matches :"/>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Draws :"/>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Wins :"/>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="100.0" text="Losses :"/>
+   </VBox>
+   <VBox alignment="TOP_CENTER" layoutX="7.0" layoutY="68.0" prefHeight="86.0" prefWidth="100.0">
+      <Button mnemonicParsing="false" onMouseClicked="#openChanges" prefHeight="25.0" prefWidth="100.0"
+              text="Change"/>
+      <Label fx:id="labelInvis" text="  input your&#10;changes and&#10;  press enter&#10;" visible="false"/>
+   </VBox>
+   <VBox alignment="TOP_CENTER" layoutX="7.0" layoutY="151.0" prefHeight="151.0" prefWidth="100.0" spacing="5.0">
+      <TextField fx:id="userNameCh" alignment="CENTER" promptText="new Username" visible="false"/>
+      <TextField fx:id="nickNameCh" alignment="CENTER" promptText="new Nickname" visible="false"/>
+      <TextField fx:id="emailCh" alignment="CENTER" promptText="new Email" visible="false"/>
+      <PasswordField fx:id="passwordCh" alignment="CENTER" promptText="new Password" visible="false"/>
+      <PasswordField fx:id="repeatPasswordCh" alignment="CENTER" promptText="repeat Password" visible="false"/>
+   </VBox>
+   <Button layoutX="7.0" layoutY="37.0" onMouseClicked="#history" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="History"/>
+</Pane>
